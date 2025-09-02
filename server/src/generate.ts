@@ -1,4 +1,4 @@
-import fs from 'node:fs';
+import { createCanvas, loadImage } from '@napi-rs/canvas';
 import path from 'node:path';
 import { createCanvas, loadImage } from 'canvas';
 import GIFEncoder from 'gifencoder';
